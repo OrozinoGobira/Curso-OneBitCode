@@ -1,4 +1,84 @@
-// Função para calcular a área de um triângulo
+function soma (){
+  const number1 = parseFloat(prompt("Digite o primeiro numero: "))
+  const number2 = parseFloat(prompt("Digite o segundo numero: "))
+  return number1 + number2
+}
+function subtrair(){
+    const number1 = prompt("Digite o primeiro numero")
+    const number2 = prompt("Digite o primeiro numero")
+        return number1 - number2
+}
+function multp(){
+    const number1 = prompt("Digite o primeiro numero: ")
+    const number2 = prompt("Digite o primeiro numero: ")
+    return number1 * number2
+}
+
+ function menu (){
+     return prompt ( 
+    "\n1. Somar os numeros : " +
+    "\n2. subtrair os numeros: "+
+    "\n3. multiplicar os numeros: " +
+    "\n4. Sair" 
+    )
+ }
+
+ function executar(){
+    let opcao = ""
+   let resultado
+   do{
+  opcao = menu()
+     
+  switch(opcao){
+    case "1":
+        resultado = soma(resultado="1", resultado="1")         
+        break
+    case "2":
+        resultado = subtrair()
+        break
+    case "3":
+        resultado = multp()
+        break
+    case "4":
+        alert("Encerrando...")
+        break
+    default:
+        alert("Opção invalida")
+  }
+  if(resultado){
+    alert("Resultado:" + resultado)
+    break
+  }else {
+    alert("campo vazio")
+  }
+   }while( opcao!== "4")
+ }
+
+executar()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Função para calcular a área de um triângulo
 function calcularAreaTriangulo() {
     const base = prompt("Informe a base do triângulo: "); // Solicita a entrada da base
     const altura = prompt("Informe a altura do triângulo: "); // Solicita a entrada da altura
@@ -84,3 +164,4 @@ function executar() {
 }
 
 executar(); // Inicia o programa chamando a função executar
+ */
