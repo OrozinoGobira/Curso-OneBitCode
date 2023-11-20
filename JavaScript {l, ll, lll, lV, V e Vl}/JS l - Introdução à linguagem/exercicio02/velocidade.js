@@ -18,4 +18,4 @@ alert (
     "\nVelocidade do primeiro veiculo"+ velPrimeiroVeiculo + " km/h" +
     "\nNome Segundo veiculo: "+ segundoVeiculo + 
     "\nVelocidade do segundo veiculo: "+ velSegundoVeiculo + "km/h"
-)
+) 

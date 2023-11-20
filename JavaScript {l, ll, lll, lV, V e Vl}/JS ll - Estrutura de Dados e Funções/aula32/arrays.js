@@ -1,11 +1,10 @@
-const listaDeCompras = ["Acuçar", false]
-console.log (listaDeCompras)
+const listaDeCompras = ["Açucar", false]
+console.log(listaDeCompras)
 
-listaDeCompras[0] = "Arroz"
+listaDeCompras[0] = "arroz"
 listaDeCompras[1] = "Feijão"
 listaDeCompras[2] = 7
-listaDeCompras[5] = "Batata"
-
+listaDeCompras[5] = "batata"
 
 console.log(listaDeCompras)
 

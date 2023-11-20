@@ -8,4 +8,4 @@ let = resultado = ""
 for (let fator = 1; fator <=20; fator++){
    resultado += "->" + numero + " * " + fator + " = " + (numero * fator) + "\n"
 }
-alert ("Resultado da tabuade de " + numero + ": \n\n" + resultado)
+alert ("Resultado da tabuade de " + numero + ": \n\n" + resultado) 

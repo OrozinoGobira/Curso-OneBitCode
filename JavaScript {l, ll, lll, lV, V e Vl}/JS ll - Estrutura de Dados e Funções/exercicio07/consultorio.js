@@ -1,36 +1,39 @@
-let minhaLista = []
-let opcao = ""
+const minhaLista = []
+menu = ""
 
 do{
   let pacientes = ""
-  for( i = 0; i < minhaLista.length; i++){
-    pacientes += "\n" + (i + 1) + "º - " + minhaLista[i]
-}
-
- opcao = prompt(
-    "Lista de pacientes:" + pacientes + "\n1. Adicionar paciente\n2. Paciente prioridade \n3. Consultar paciente \n4. Sair"
- )
-  switch(opcao){
-    case "1":
-        let novoPaciente = prompt("Nome do paciente:")
-        minhaLista.push(novoPaciente)
-        break
-        case"2":
-         let pacientePrioridade = prompt("Nome do paciente prioridade:")
-         minhaLista.unshift(pacientePrioridade)
-         break
-    case "3":
-         const removerPaciente = minhaLista.shift()
-         if(removerPaciente){
-          alert(removerPaciente + " foi removido")
-         }
-         alert("Não há pacientes")
-        break
-    case "4":
-        alert("sair")
-        break
-    default:
-        alert("Opção invalida")
+  for(let i = 0; i < minhaLista.length; i++){
+    pacientes += "\n" + (i + 1) + " º -" + minhaLista[i]
   }
 
-}while(opcao !== "4")
+
+  menu = prompt(
+    "Pacientes: " + pacientes +
+    "\n1.Novo paciente" +
+    "\n2.Consultar paciente" +
+    "\n3.Sair"
+    )
+    switch(menu){
+      case "1":
+       let novoPaciente = prompt("Nome do novo paciente:")
+      minhaLista.push(novoPaciente)
+       break
+       case "2":
+        let pacienteRemovido = minhaLista.shift();
+        
+        if(pacienteRemovido){
+          alert(pacienteRemovido +"foi removido da fila")
+          break
+        }else {
+          alert("Não há paciente")
+        }
+        case "3":
+          alert("Encerrando...")
+          break
+        default:
+          alert("Opção invalida")
+    }
+
+
+}while(menu != "3")

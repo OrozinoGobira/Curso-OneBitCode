@@ -1,28 +1,36 @@
-const baralho = []
-let opcao = ""
+let baralho = []
+opcao = ""
 
-do{
- opcao = prompt(
-    "Cartas no baralho: " + baralho.length +
-    "\n1. Adicionar uma carta \n2. Puxar uma carta\n3. Sair"
+ do{
+ let cartas = ""
 
- )
- switch(opcao){
-    case"1":
-        const novaCarta = prompt ("Qual é a carta ?")
-        baralho.push(novaCarta)
-        break
-    case"2":
-        const cartaPuxada = baralho.pop()
-        if(!cartaPuxada){
-            alert("Não há nenhuma carta no baralho")
+ for(let i = 0; i < baralho.length; i++){
+    cartas =  (i+1)
+}
+opcao = prompt (
+    "Nº de cartas: " + cartas +
+    "\n1.Adicionar carta" +
+    "\n2.Retirar carta" +
+    "\n3. Sair"
+)
+  switch(opcao){
+    case "1":
+        let adicionarCarta = prompt("nome da carta: ")
+         baralho.push(adicionarCarta)
+         break
+    case "2":
+        let removerCarta = baralho.pop()
+        if(removerCarta !== undefined){
+            alert("Carta removida: "+ removerCarta)
         }else{
-            alert("Você puxou um(a)" + cartaPuxada)
+            alert("Não há carta")
         }
-    case"3":
+        break
+    case "3":
         alert("Saindo...")
-    break
+        break
     default:
-        alert("Opção invalida")
- }
-}while(opcao !=="3")
+        alert("Opção invalida...")
+  }
+
+}while(opcao != "3")

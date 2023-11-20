@@ -1,11 +1,74 @@
-// Esta função recebe um argumento 'x' e exibe um alerta mostrando o dobro de 'x'.
+function dobro(x){
+alert("O dobro de " + x + " é "+ (x * 2))
+}
+//dobro(5)
+//dobro (7)
+
+
+//dobro()
+
+//parametro é como se fosse uma variavel dentro da função
+
+function dizerOla(nome = "mundo"){
+    alert("Olá, "+ nome + "!")
+}
+
+//dizerOla("Isaac")
+//dizerOla()
+
+function soma( a, b){
+    alert("O resultado da soma é " + (a + b))
+}
+//soma(7,6)
+//soma(1,1)
+
+
+function criarUsuario(nome, email, senha, tipo="admin"){
+
+    const usuario = {
+    nome,
+    email,
+    senha,
+    tipo
+  }
+  console.log(usuario)
+}
+
+criarUsuario("Isaac","isaac@email.com", "1234")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Esta função recebe um argumento 'x' e exibe um alerta mostrando o dobro de 'x'.
 function dobro(x) {
     alert("O dobro de " + x + " é " + (x * 2));
 }
 
 // Exemplos de uso da função dobro:
-// dobro(5); // Chamando a função com o valor 5 como argumento
-// dobro(7); // Chamando a função com o valor 7 como argumento
+//dobro(5); // Chamando a função com o valor 5 como argumento
+//dobro(7); // Chamando a função com o valor 7 como argumento
 // dobro();  // Esta chamada gerará um erro, pois nenhum valor foi passado como argumento.
 
 // Esta função recebe um argumento 'nome' com um valor padrão "Mundo!" e exibe um alerta com uma saudação.
@@ -68,3 +131,4 @@ objetosComoParametros(dadosDoUsuario);
 
 // Exibindo o objeto 'dadosDoUsuario' no console, que agora pode ter sido modificado pela função objetosComoParametros.
 console.log(dadosDoUsuario);
+ */

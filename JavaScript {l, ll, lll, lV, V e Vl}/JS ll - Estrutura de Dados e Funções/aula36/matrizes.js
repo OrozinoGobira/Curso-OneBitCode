@@ -8,13 +8,13 @@ const arr = [
   ],
   []
 ]
-console.log(arr)
-console.log(arr[0])
-console.log(arr[1])
-console.log(arr[1][0])
-console.log(arr[2])
-console.log(arr[2][1])
-console.log(arr[2][1][0])
+//console.log(arr)
+//console.log(arr[0])
+//console.log(arr[1])
+//console.log(arr[1][0])
+//console.log(arr[2])
+//console.log(arr[2][1])
+//console.log(arr[2][1][0])
 
 // Podemos ver claramente a estrutura de uma matriz em uma tabela
 const matriz = [
@@ -26,9 +26,12 @@ const matriz = [
   //matriz.push("nova linha")
  // matriz[0].push("Nova Coluna")
 
- for (let i = 0; i < matriz.length; i++){
-  for (let j = 0; j < matriz[i].length; j++ ){
-  const elemento = matriz[i][j]
- console.log("Posição: (" + i + ","+ j + ")")
-}
+ for(let i = 0; i < matriz.length; i++){
+  for(let j = 0; j < matriz[i].length; j++){
+    const elemento = matriz[i][j]
+    console.log("Posição: ("+ i + "," + j +") valor : "+ elemento)
+  }
  }
+
+
+//Posicação: (i, j) Valor: elemento
