@@ -1,7 +1,10 @@
-function somar(a,b){
-    return a + b
+olaMundo()
+oiMundo()
+
+function olaMundo(){
+    console.log("Olá, Mundo!")
 }
 
-const operacao = somar 
-
-console.log(operacao(4,5))
+const oiMundo = function (){
+    console.log("Oi, mundo")
+}
