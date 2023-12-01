@@ -1,21 +1,25 @@
-const primeiroVeiculo = prompt("Nome do primeiro veiculo: ")
-const velPrimeiroVeiculo = parseFloat(prompt("Velocidade do primeiro veiculo: "))
+// Solicita ao usuário que insira o nome e a velocidade do primeiro veículo
+const primeiroVeiculo = prompt("Nome do primeiro veículo: ");
+const velPrimeiroVeiculo = parseFloat(prompt("Velocidade do primeiro veículo: "));
 
-const segundoVeiculo = prompt("Nome do segundo veiculo: ")
-const velSegundoVeiculo = parseFloat(prompt("Velocidade do Segundo veiculo: "))
+// Solicita ao usuário que insira o nome e a velocidade do segundo veículo
+const segundoVeiculo = prompt("Nome do segundo veículo: ");
+const velSegundoVeiculo = parseFloat(prompt("Velocidade do segundo veículo: "));
 
+// Compara as velocidades dos dois veículos e exibe mensagens correspondentes
 if (velPrimeiroVeiculo > velSegundoVeiculo) {
-    alert("O veiculo " + primeiroVeiculo + "é mais rapido do que o "+ segundoVeiculo)
-} else if (velSegundoVeiculo > velPrimeiroVeiculo){
-    alert("O veiculo " + segundoVeiculo + " é mais rapido do que"+ primeiroVeiculo)
+    alert("O veículo " + primeiroVeiculo + " é mais rápido do que o " + segundoVeiculo);
+} else if (velSegundoVeiculo > velPrimeiroVeiculo) {
+    alert("O veículo " + segundoVeiculo + " é mais rápido do que " + primeiroVeiculo);
+} else {
+    alert(primeiroVeiculo + " e " + segundoVeiculo + " possuem a mesma velocidade");
 }
-else {
-    alert (primeiroVeiculo + "" + segundoVeiculo + "possui a mesma velocidade")
-}
-alert (
-    "Todas as informações da corrida \n" +
-    "\nNome do primeiro veiculo: " + primeiroVeiculo + 
-    "\nVelocidade do primeiro veiculo"+ velPrimeiroVeiculo + " km/h" +
-    "\nNome Segundo veiculo: "+ segundoVeiculo + 
-    "\nVelocidade do segundo veiculo: "+ velSegundoVeiculo + "km/h"
-) 
+
+// Exibe um alerta contendo todas as informações da corrida
+alert(
+    "Todas as informações da corrida:\n" +
+    "\nNome do primeiro veículo: " + primeiroVeiculo +
+    "\nVelocidade do primeiro veículo: " + velPrimeiroVeiculo + " km/h" +
+    "\nNome do segundo veículo: " + segundoVeiculo +
+    "\nVelocidade do segundo veículo: " + velSegundoVeiculo + " km/h"
+);

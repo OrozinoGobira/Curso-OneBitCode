@@ -1,11 +1,16 @@
-const numero = prompt (
-   "Olá, eu sou o robô da tabuada" +
-   "Informe o numero que você deseja calcular a tabuada"
-)
+// Solicita ao usuário que insira o número para calcular a tabuada
+const numero = prompt(
+   "Olá, eu sou o robô da tabuada. Informe o número que você deseja calcular a tabuada:"
+);
 
-let = resultado = ""
+// Variável para armazenar os resultados da tabuada
+let resultado = "";
 
-for (let fator = 1; fator <=20; fator++){
-   resultado += "->" + numero + " * " + fator + " = " + (numero * fator) + "\n"
+// Loop for para calcular a tabuada do número fornecido (de 1 a 20)
+for (let fator = 1; fator <= 20; fator++) {
+   // Concatena os resultados à string resultado
+   resultado += "->" + numero + " * " + fator + " = " + (numero * fator) + "\n";
 }
-alert ("Resultado da tabuade de " + numero + ": \n\n" + resultado) 
+
+// Exibe um alerta com o resultado da tabuada
+alert("Resultado da tabuada de " + numero + ":\n\n" + resultado);

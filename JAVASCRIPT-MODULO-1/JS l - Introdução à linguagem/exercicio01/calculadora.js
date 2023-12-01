@@ -1,70 +1,20 @@
- const number1 = parseFloat(prompt("Digita o primeiro numero")) ?? 0;
- const number2 = parseFloat(prompt("Digite o segundo numero: ")) ?? 0;
-const soma =  number1 + number2
-const subtracao = number1 - number2
-const mult = number1 * number2
-const div = number1 / number2
+// Solicita ao usuário que digite o primeiro número e converte para float, usando coalescência nula para atribuir 0 em caso de valor inválido
+const number1 = parseFloat(prompt("Digite o primeiro número")) ?? 0;
 
+// Solicita ao usuário que digite o segundo número e converte para float, usando coalescência nula para atribuir 0 em caso de valor inválido
+const number2 = parseFloat(prompt("Digite o segundo número: ")) ?? 0;
 
+// Realiza as quatro operações básicas com os números fornecidos
+const soma = number1 + number2;
+const subtracao = number1 - number2;
+const mult = number1 * number2;
+const div = number1 / number2;
 
+// Exibe um alerta contendo os resultados das operações
 alert(
-      "Resultado das quatro operações dos numeros:" + number1 + " e " + number2 +
-      "\nA soma:" + soma +
-      "\nsubtração: "+ subtracao +
-      "\nMultiplicação: " + mult +
-      "\nDivisão: " + div 
-)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-const x = parseFloat(prompt("Digite o primeiro numero:"))
-const y = parseFloat(prompt ("Digite o segundo numero: "))
-
-const soma = x + y
-const subtracao = x - y
-const multiplicacao = x * y
-const divisao = x / y
-
-alert("Resultado das operações entre os numeros: " + x + " e " + y +
-      "\nSoma: "+ soma + 
-      "\nSubtração: "+ subtracao +
-      "\nMultiplicação: "+ multiplicacao +
-      "\nDivisão: "+ divisao      
-) */
+    "Resultado das quatro operações dos números: " + number1 + " e " + number2 +
+    "\nA soma: " + soma +
+    "\nSubtração: " + subtracao +
+    "\nMultiplicação: " + mult +
+    "\nDivisão: " + div 
+);

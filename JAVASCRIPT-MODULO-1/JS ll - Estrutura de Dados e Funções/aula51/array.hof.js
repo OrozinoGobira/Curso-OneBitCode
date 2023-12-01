@@ -68,3 +68,10 @@ personagens.sort(function(a,b){
   return a.nivel - b.nivel 
 })
 console.log(personagens)
+/*
+Map: Cria um novo array contendo apenas os nomes dos personagens.
+Filter: Cria um novo array contendo apenas os personagens da raça "Orc".
+Reduce (nivelTotal): Calcula a soma total dos níveis de todos os personagens.
+Reduce (racas): Organiza os personagens em um objeto, agrupados por raça.
+Sort: Ordena os personagens com base no nível, em ordem crescente.
+*/

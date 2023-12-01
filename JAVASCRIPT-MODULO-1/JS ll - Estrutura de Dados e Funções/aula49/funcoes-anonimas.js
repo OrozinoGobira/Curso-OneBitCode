@@ -1,10 +1,11 @@
-olaMundo()
-oiMundo()
+olaMundo(); // Chamada de função antes da declaração
+
+oiMundo();
 
 function olaMundo(){
-    console.log("Olá,mundo")
+    console.log("Olá, mundo");
 }
 
 const oiMundo = function(){
-    console.log("Oi,Mundo!")
-}
+    console.log("Oi, Mundo!");
+};

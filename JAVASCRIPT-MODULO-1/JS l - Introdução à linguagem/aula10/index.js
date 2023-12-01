@@ -1,11 +1,19 @@
-nome = window.prompt ('Insira o seu nome:')
+// Solicita ao usuário que insira o nome e armazena o valor na variável 'nome'
+let nome = window.prompt('Insira o seu nome:');
 
-console.log (nome)
-let confirmacao = confirm('Confirma essa ação '+ nome + ' ?') 
-console.log (confirmacao)
+// Exibe no console o valor inserido pelo usuário
+console.log(nome);
 
-if ( confirmacao == 0) {
-    alert ('tente novamente mais tarde')
+// Pede ao usuário uma confirmação usando o nome inserido anteriormente
+let confirmacao = confirm('Confirma essa ação ' + nome + ' ?');
+// Exibe no console a confirmação (true se o usuário confirmar, false se cancelar)
+console.log(confirmacao);
+
+// Verifica se o usuário confirmou (pressionou "OK")
+if (confirmacao) {
+    // Exibe uma mensagem de boas-vindas se o usuário confirmou
+    alert("Seja bem-vindo " + nome);
 } else {
-    alert ("Seja bem vindo " + nome)
+    // Exibe uma mensagem se o usuário cancelou a ação
+    alert('Tente novamente mais tarde');
 }

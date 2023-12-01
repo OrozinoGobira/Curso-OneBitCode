@@ -1,112 +1,28 @@
-const turista = prompt ("Eai turista, qual o seu nome? ")
-let cidades = ""
-let contador = 0
+// Solicita ao turista que insira seu nome
+const turista = prompt("Eai turista, qual o seu nome?");
 
-let continuar = prompt ("Você já visitou alguma cidade? (sim/nao)? ")
+// Variáveis para armazenar as cidades visitadas e a contagem
+let cidades = "";
+let contador = 0;
 
-while(continuar =="sim"){
+// Pergunta se o turista já visitou alguma cidade
+let continuar = prompt("Você já visitou alguma cidade? (sim/nao)?");
 
-     let cidade = prompt ("Qual cidade você já visitou?")
-     contador ++
-     cidades += "\n"+ contador + " º " + cidade
+// Loop while para continuar perguntando sobre cidades enquanto o turista responder "sim"
+while (continuar === "sim") {
+    // Pergunta qual cidade o turista visitou
+    let cidade = prompt("Qual cidade você já visitou?");
+    // Incrementa a contagem e adiciona a cidade à lista
+    contador++;
+    cidades += "\n" + contador + "º " + cidade;
 
-      continuar = prompt ("Você já visitou mais alguma cidade? (sim/nao)")
-    }
-
-    alert (
-        "Nome do turista: "+ turista +
-        "\nQuantidade de cidades visitadas: " + contador +
-        "\nCidades visitadas: \n" + cidades
-     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
-const turista  = prompt("Eai turista, qual é o seu nome?")
-let cidades = ""
-let contador = 0
-
- let continuar = prompt ("Você já visitou alguma cidade? (sim/nao)")
-
-while (continuar === "sim"){
-  let cidade = prompt("Você já visitou qual cidade?")
-  cidades += "\n" + "-" + cidade
-  contador ++
-   continuar = prompt("Você  visitou  alguma outra cidade? (sim/nao)")
-}
-alert(
-    "Nome do turista" + turista +
-    "\nQuantidade de cidades visitas: "+ contador +
-    "\nCidades: " + cidades
-)
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*const turista = prompt ("Eai turista! Qual é o seu nome?")
-let  cidades = "" // Uma string vazia para armazenar os nomes das cidades visitadas.
-let contagem = 0 // Uma variável para rastrear a contagem de cidades visitadas.
-
-let continuar = prompt("Você visitou alguma cidade? (Sim/Não)") // Inicia um loop while que continuará enquanto a resposta for "Sim".
-
-while (continuar === "Sim"){
-    let cidade = prompt ("Qual é o nome da cidade visitada?")
-    cidades += " - " + cidade + "\n" // Adiciona o nome da cidade à lista de cidades.
-    contagem ++ // Incrementa a contagem de cidades visitadas.
-    continuar = prompt ("Você visitou alguma outra cidade? (Sim/Não)")
+    // Pergunta se o turista visitou mais alguma cidade
+    continuar = prompt("Você já visitou mais alguma cidade? (sim/nao)");
 }
 
-// Após o loop, exibe um alerta com informações sobre a viagem.
+// Exibe um alerta com as informações coletadas
 alert(
-    "Turista: " + turista +
-    "\nQuantidade de cidades visitadas: " + contagem +
+    "Nome do turista: " + turista +
+    "\nQuantidade de cidades visitadas: " + contador +
     "\nCidades visitadas: \n" + cidades
-) */
+);
