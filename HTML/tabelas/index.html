@@ -6,7 +6,7 @@
 
 <body>
     <h1>Criação de Tabelas no HTML </h1>
-    <table>
+    <table border="1">
         <tr>
             <th>Coluna 1</th>
             <th>Coluna 2</th>
@@ -24,7 +24,7 @@
 
 
     <h2>Tabelas com cabeçalho</h2>
-    <table>
+    <table border="1">
 
         <thead>
             <tr>
@@ -52,10 +52,10 @@
 
     <h2>Tabelas com celulas personalizadas</h2>
     
-    <table>
+    <table border="1">
         <thead>
             <tr>
-                <th>Informações pessoais</th>
+                <th colspan="2">Informações pessoais</th>
                 <th>Contato</th>
             </tr>
         </thead>
@@ -63,7 +63,7 @@
             <tr>
                 <td>Nome</td>
                 <td>João</td>
-                <td>telefone:330032321</td>
+                <td rowspan="2">telefone:330032321</td>
             </tr>
             <tr>
                 <td>Idade</td>
