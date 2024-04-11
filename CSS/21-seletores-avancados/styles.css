@@ -1,0 +1,7 @@
+/*seletor :nth-child() */
+li:nth-child(2){
+ color: #f00;
+}
+li:nth-child(even){
+    color: #00f;
+}
