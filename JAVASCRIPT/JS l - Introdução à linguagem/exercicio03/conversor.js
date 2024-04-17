@@ -1,4 +1,70 @@
-// Solicita ao usuário que insira uma medida em metros
+const valorMetros = parseFloat(prompt("Insira uma medida em metros?"))
+
+const conversor = prompt(
+    "Para qual unidade de medida deseja converter?" +
+    "\n a) milimetro(mm)" +
+    "\n b) centimetros (cm)"+
+    "\n c) decimetro(dm)"+
+    "\n d) decâmetro(dam)"+
+    "\n e) ectômetro(hm)"+
+    "\n f) quilometro(km)"
+) 
+    switch(conversor){
+        case "a":
+         alert("Resultado:  "+ valorMetros +"M = "+ valorMetros*1000 + "mm")
+         break
+         case "b":
+            alert("Resultado: "+ valorMetros +"M = "+ valorMetros*100 + "cm")
+        break
+        case "c":
+            alert("Resultado: "+ valorMetros +"M = "+ valorMetros*10 + "dm")
+        break
+        case "d":
+            alert("Resultado: "+ valorMetros +"M = "+ valorMetros*0.1 + "dam")
+        break
+        case "e":
+            alert("Resultado: "+ valorMetros +"M = "+ valorMetros*0.01 + "hm")
+        break
+        case "f":
+            alert("Resultado: "+ valorMetros +"M = "+ valorMetros*0.001 + "km")
+        break
+        default:
+            alert("Opção invalida")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Solicita ao usuário que insira uma medida em metros
 const medida = parseFloat(prompt("Insira uma medida em metros"));
 
 // Solicita ao usuário que escolha uma unidade de medida para conversão
@@ -35,3 +101,4 @@ switch (unidade) {
     default:
         alert("Opção inválida");
 }
+*/
