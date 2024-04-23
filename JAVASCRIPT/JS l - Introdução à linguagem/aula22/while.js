@@ -1,4 +1,39 @@
-// Inicializa a variável 'velocidade' com o valor 80
+let velocidade = 80
+
+
+while (velocidade > 0){
+    alert("o carro está a "+ velocidade + "km/h")
+    velocidade -= 20 
+    alert("Diminuindo 20km/h")
+}
+
+alert("O carro parou")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Inicializa a variável 'velocidade' com o valor 80
 let velocidade = 80;
 
 // Executa um loop while enquanto a velocidade for maior que 0
@@ -17,3 +52,4 @@ while (velocidade > 0) {
 
 // Exibe um alerta indicando que o carro parou após o loop while
 alert("O carro parou");
+*/

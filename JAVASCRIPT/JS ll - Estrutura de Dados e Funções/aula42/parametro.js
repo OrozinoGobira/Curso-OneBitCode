@@ -1,4 +1,4 @@
- // Esta função recebe um argumento 'x' e exibe um alerta mostrando o dobro de 'x'.
+// Esta função recebe um argumento 'x' e exibe um alerta mostrando o dobro de 'x'.
 function dobro(x) {
     alert("O dobro de " + x + " é " + (x * 2));
 }

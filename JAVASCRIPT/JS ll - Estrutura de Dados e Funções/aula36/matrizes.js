@@ -34,4 +34,4 @@ const matriz = [
  }
 
 
-//Posicação: (i, j) Valor: elemento
+//Posicação: (i, j) Valor: elemento*/

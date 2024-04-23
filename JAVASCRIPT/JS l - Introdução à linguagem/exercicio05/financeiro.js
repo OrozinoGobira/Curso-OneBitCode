@@ -36,3 +36,4 @@ do {
 
 // Após o loop, exibe o valor final na conta
 alert("Saldo final: R$" + valor_inicial);
+*/

@@ -43,4 +43,3 @@ do {
     }
 
 } while (opcao !== "3"); // Continua o loop enquanto o usuário não escolhe a opção "Sair"
-

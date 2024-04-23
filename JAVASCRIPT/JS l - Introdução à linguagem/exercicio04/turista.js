@@ -1,3 +1,4 @@
+
 // Solicita ao turista que insira seu nome
 const turista = prompt("Eai turista, qual o seu nome?");
 

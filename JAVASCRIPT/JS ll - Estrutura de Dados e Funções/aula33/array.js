@@ -1,4 +1,4 @@
-const arr = ["Frodo", "Sam", "Merry", "Pippin", "Gandalf", "Aragorn", "Legolas", "Gimli"]
+ const arr = ["Frodo", "Sam", "Merry", "Pippin", "Gandalf", "Aragorn", "Legolas", "Gimli"]
 console.log(arr)
 // push: Adiciona um elemento no final do array e devolve o novo tamanho do array
 let tamanho = arr.push("Boromir")
@@ -46,4 +46,4 @@ console.log(sociedade)
 for (let indice = 0; indice < sociedade.length; indice++) {
     const elemento = sociedade[indice]
     console.log(elemento + " se encontra na posição " + indice)
-  } 
+  }

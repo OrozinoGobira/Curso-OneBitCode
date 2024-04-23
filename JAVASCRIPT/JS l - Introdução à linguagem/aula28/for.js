@@ -1,8 +1,5 @@
-// Inicializa a variável 'nome' com uma string
-let nome = "Isaac Gobira";
-
-// Usa um loop for para percorrer os caracteres da string de trás para frente
-for (let indice = nome.length - 1; indice >= 0; indice--) {
-    // Exibe cada caractere no console
-    console.log(nome[indice]);
+// iniciliazação ; condição ; finalização
+let nome = "Isaac" // tamanho  5->  0, 1, 2, 3, 4
+for(let indice = 0 ; indice <=  nome.length; indice++ ) {
+    console.log(nome[indice])
 }
