@@ -38,6 +38,7 @@ function exibirMenu(){
 
 function executar(){
     let opcao = ""
+    
     do{
     opcao = exibirMenu()
     let resultado 

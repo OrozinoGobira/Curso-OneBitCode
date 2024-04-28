@@ -1,43 +1,6 @@
-let pessoa = {
-    nome: "Isaac",
-    idade: 26
-}
-console.log(pessoa)
 
+// Criando um objeto chamado "pessoa"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*// Criando um objeto chamado "pessoa"
 let pessoa = {
     // Definindo a propriedade "nome" com o valor "Isaac"
     nome: "Isaac",
