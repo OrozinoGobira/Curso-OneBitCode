@@ -1,4 +1,3 @@
-
 // Criando um objeto chamado "pessoa"
 
 let pessoa = {
@@ -27,12 +26,12 @@ pessoa.dizerOla();
 
 /* 
  METODOS
- eles são funções atreladas a objetos
-dentro
+metodos são funções atreladas a objetos
+(ou seja) dentro do objeto pode atrelar uma função
 
 typeOf console
 "object"
 
 typeof console.log
 "function"
-*/
+*/ 

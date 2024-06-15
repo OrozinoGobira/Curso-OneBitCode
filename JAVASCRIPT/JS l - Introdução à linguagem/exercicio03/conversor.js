@@ -34,4 +34,4 @@ switch (unidade) {
         break;
     default:
         alert("Opção inválida");
-}
+} 

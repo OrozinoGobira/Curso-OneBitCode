@@ -1,4 +1,4 @@
-let baralho = []; // Array que armazenará as cartas
+let  baralho = []; // Array que armazenará as cartas
 let opcao = "";
 
 do {

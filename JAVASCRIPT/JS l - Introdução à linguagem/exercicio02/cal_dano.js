@@ -32,4 +32,4 @@ alert(
     atacante + "\nPoder de ataque: " + poderDeAtaque + "\n\n" +
     NomeAdversario + "\nPontos de vida: " + PontoDeVida +
     "\nPoder de defesa: " + PoderDeDefesaAdversario + "\nPossui escudo: " + escudoAdversario
-);
+); 

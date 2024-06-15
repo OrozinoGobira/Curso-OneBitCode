@@ -37,8 +37,6 @@ alert(
 
 
 
-
-
 /*// Solicita ao usuário que insira o número para calcular a tabuada
 const numero = prompt(
    "Olá, eu sou o robô da tabuada. Informe o número que você deseja calcular a tabuada:"

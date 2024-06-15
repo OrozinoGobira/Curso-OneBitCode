@@ -1,3 +1,4 @@
+
 // Solicita ao usuário que insira o nome e a velocidade do primeiro veículo
 const primeiroVeiculo = prompt("Nome do primeiro veículo: ");
 const velPrimeiroVeiculo = parseFloat(prompt("Velocidade do primeiro veículo: "));

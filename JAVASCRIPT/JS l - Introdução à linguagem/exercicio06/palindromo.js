@@ -1,4 +1,3 @@
-
 // Solicita ao usuário que insira uma palavra
 const palavra = prompt("Informe uma palavra: ");
 
