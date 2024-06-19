@@ -1,5 +1,4 @@
-
-minhaLista = []; // Array que armazenará os pacientes
+let minhaLista = []; // Array que armazenará os pacientes
 let menu = "";
 
 do {
@@ -45,4 +44,4 @@ do {
       alert("Opção inválida");
   }
 
-} while (menu !== "3"); // Continua o loop enquanto o usuário não escolhe a opção "Sair"
+} while (menu !== "3"); // Continua o loop enquanto o usuário não escolhe a opção "Sair" 

@@ -42,4 +42,4 @@ do {
             alert("Opção inválida...");
     }
 
-} while (opcao !== "3"); // Continua o loop enquanto o usuário não escolhe a opção "Sair"
+} while (opcao !== "3"); // Continua o loop enquanto o usuário não escolhe a opção "Sair"*/

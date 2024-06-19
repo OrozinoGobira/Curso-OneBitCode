@@ -1,4 +1,36 @@
-// Função para calcular a média de dois números
+function calcularMedia(a, b){
+  const media = ( a + b) / 2
+}
+
+const  resultado = calcularMedia(7, 2)
+
+console.log(resultado)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Função para calcular a média de dois números
 function calcularMedia(a, b) {
   const media = (a + b) / 2;
   return media;
@@ -57,4 +89,4 @@ function maioridade(idade) {
 
 // Chamando a função maioridade com diferentes idades e exibindo os resultados
 console.log(maioridade(12)); // Saída: Menor de idade
-console.log(maioridade(22)); // Saída: Maior de idade
+console.log(maioridade(22)); // Saída: Maior de idade*/

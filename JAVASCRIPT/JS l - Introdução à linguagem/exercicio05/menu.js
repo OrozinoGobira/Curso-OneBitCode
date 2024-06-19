@@ -35,4 +35,4 @@ do {
             // Exibe uma mensagem de opção inválida se a escolha do usuário não for reconhecida
             alert("Opção inválida");
     }
-} while (opcao !== "5"); // Continua o loop enquanto o usuário não escolher a opção 5 (encerrar)*/
+} while (opcao !== "5"); // Continua o loop enquanto o usuário não escolher a opção 5 (encerrar)*/ 

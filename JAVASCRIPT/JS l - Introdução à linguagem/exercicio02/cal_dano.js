@@ -1,4 +1,66 @@
-// Solicita ao usuário que insira o nome do atacante e seu poder de ataque
+const personagem = prompt ("Informe o nome do seu personagem: ")
+const poderDeAtaque = parseFloat(prompt("Informe o poder de Ataque: "))
+
+const oponente = prompt ("Informe o nome do seu oponente: ")
+let PontoDeVida = parseFloat(prompt ("Informe a quantidade de vida: "))
+const PoderDeDefesa = parseFloat(prompt ("Informe o poder de defesa do oponente: "))
+const escudo = prompt ("Possui escudo? (Sim/Nao")
+ 
+let dano = 0
+
+if(poderDeAtaque > PoderDeDefesa && escudo === "nao"){
+    dano = poderDeAtaque - PoderDeDefesa
+    alert ("Dano causado foi de"+ dano)
+} else if (poderDeAtaque > PoderDeDefesa && escudo === "sim"){
+    dano =  (poderDeAtaque - PoderDeDefesa) / 2
+    alert ("O dano causado foi de" + dano)
+} else {
+    alert("Não houve dano causado" + dano)
+}
+PontoDeVida -= dano
+alert (
+    "Dados do combate!" +
+    "\nPersonagem: " + personagem +
+    "\nPoder de Ataque: "+ poderDeAtaque +
+    "\n\nOponente: "+ oponente +
+    "\nPontos de vida: "+ PontoDeVida +
+    "\nPossui Escudo?"+ escudo +
+    "\nDano Causado: " + dano
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Solicita ao usuário que insira o nome do atacante e seu poder de ataque
 const atacante = prompt("Nome do atacante: ");
 const poderDeAtaque = parseFloat(prompt("Seu poder de ataque: "));
 
@@ -32,4 +94,4 @@ alert(
     atacante + "\nPoder de ataque: " + poderDeAtaque + "\n\n" +
     NomeAdversario + "\nPontos de vida: " + PontoDeVida +
     "\nPoder de defesa: " + PoderDeDefesaAdversario + "\nPossui escudo: " + escudoAdversario
-); 
+); */
