@@ -1,36 +1,4 @@
-function calcularMedia(a, b){
-  const media = ( a + b) / 2
-}
-
-const  resultado = calcularMedia(7, 2)
-
-console.log(resultado)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*// Função para calcular a média de dois números
+// Função para calcular a média de dois números
 function calcularMedia(a, b) {
   const media = (a + b) / 2;
   return media;

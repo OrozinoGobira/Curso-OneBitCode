@@ -1,4 +1,44 @@
-// Criando um objeto chamado "pessoa"
+let pessoa = {
+    nome: "Issaac",
+    idade: 26,
+    dizerOla(){
+        console.log("Olá, mundo! Meu nome é: "+ this.nome)
+    }
+}
+
+
+pessoa.dizerOla(pessoa)
+console.log(pessoa)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Criando um objeto chamado "pessoa"
 
 let pessoa = {
     // Definindo a propriedade "nome" com o valor "Isaac"
