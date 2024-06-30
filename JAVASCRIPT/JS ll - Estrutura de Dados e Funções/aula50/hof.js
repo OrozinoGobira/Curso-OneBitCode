@@ -1,4 +1,3 @@
-
 // Função 'calcular' que aceita dois números e uma função de operação como parâmetros
 function calcular(a, b, operacao) {
     console.log("Realizando uma operação.");

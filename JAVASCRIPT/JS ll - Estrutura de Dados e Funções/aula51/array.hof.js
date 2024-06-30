@@ -1,4 +1,3 @@
-
 const personagens = [
   { nivel: 42, nome: "Thrall", raca: "Orc", classe: "Xamã" },
   { nivel: 28, nome: "Garrosh", raca: "Orc", classe: "Guerreiro" },
