@@ -11,25 +11,25 @@
 
   <div>
     <label for="onMouseEnter">Entrada do Mouse:</label>
-    <input type="text" id="onMouseEnter" onmouseenter="mouseEnterEvent()">
+    <input type="text" id="onMouseEnter" onmouseenter="onMouseEnter()">
   </div>
   <br>
   <div>
     <label for="onChange">Mudança de Valor:</label>
-    <input type="text" id="onChange" onchange="changeEvent()">
+    <input type="text" id="onChange" onchange="console.log('Mudança no valor')">
   </div>
   <br>
   <div>
     <label for="onFocus">Entrada de Foco:</label>
-    <input type="text" id="onFocus" onfocus="focusEvent()">
+    <input type="text" id="onFocus" onfocus="console.log('foco no elemento')">
   </div>
   <br>
   <div>
     <label for="onBlur">Saída de Foco:</label>
-    <input type="text" id="onBlur" onblur="blurEvent()">
+    <input type="text" id="onBlur" onblur="console.log('desfocar o elemento')">
   </div>
   <br>
-  <button onclick="clickEvent()">
+  <button onclick="onClick()">
     Clique-me!
   </button>
 

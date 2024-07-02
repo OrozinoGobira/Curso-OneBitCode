@@ -26,4 +26,3 @@ function addInput() {
     // Adiciona o novo elemento <li> (com o elemento <input>) como filho do elemento <ul>
     ul.appendChild(newLi);
   }
-  
