@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escalação do time</title>
-    <script src="index.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js"></script>
+  <title>Document</title>
 </head>
 <body>
-    <h1>Escalação do time</h1>
-    <hr>
-    <h2>Escalar Jogadores</h2>
-    <p>
-        <label for="position">Posição: </label>
-        <input type="text" name="position" id="position">
-        <label for="name">Nome: </label>
-        <input type="text" name="name" id="name">
-        <label for="number">Numero: </label>
-        <input type="text" name="number" id="number">
-        <button onclick="addPlayer()">Escalar</button>
-    </p>
-     <h2>Remover Jogador</h2>
-     <p>
-        <label for="numberToRemove">Numero: </label>
-        <input type="text" name="numberToRemove" id="numberToRemove">
-         <button onclick="removePlayer()">Remover</button>
-     </p>
-     <h2>Time</h2>
-     <ul id="teamList">
-     </ul>
+   <h1>Time de futebol</h1>
+   <hr>
+   <h2>Escalar jogador</h2>
+   <p>
+   <label for="position">Posição: </label>
+   <input type="text" name="position" id="position">
+   <label for="name">Nome: </label>
+   <input type="text" name="name" id="name">
+   <label for="number">Numero: </label>
+   <input type="text" name="number" id="number">
+   <button onclick="addPlayer()">Adicionar Jogador</button>
+  </p>
+  <p>
+
+  <h2>Remover jogador: </h2>
+  <label for="numberToRemove">Numero: </label>
+  <input type="text" name="numberToRemove" id="numberToRemove">
+  <button onclick="removePlayer()" > remover jogador</button>
+</p>
+
+<h2>Escalação:</h2>
+<ul id="escalacao"></ul>
 </body>
 </html>
